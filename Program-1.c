@@ -16,14 +16,14 @@ int main()
     /* Run loop till num is greater than 0 */
     do
     {
-        /* Increment digit count */
-        count++;
-
-        /* Remove last digit of 'num' */
+     
+      /* Remove last digit of 'num' */
         num /= 10;
-    } while(  != 0);
-
-    printf("Total digits: %d", );
+        /* Increment digit count */
+        count++;  
+    } 
+     while( num != 0);
+    printf("Total digits: %d",count );
 
     return 0;
 }
